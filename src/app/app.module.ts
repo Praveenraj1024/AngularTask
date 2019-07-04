@@ -1,6 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import {  Scenario7Module } from './scenario7/scenario7.module';
+import { Scenario1Module } from './scenario1/scenario1.module';
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -17,6 +20,7 @@ import { Component3Component as Scenario5Component3Component } from './scenario5
 import { Component1Component as Scenario6Component1Component } from './scenario6/component1/component1.component';
 import { Component2Component as Scenario6Component2Component } from './scenario6/component1/component2/component2.component';
 import { Component3Component as Scenario6Component3Component } from './scenario6/component1/component3/component3.component';
+
 
 
 @NgModule({
@@ -38,7 +42,9 @@ import { Component3Component as Scenario6Component3Component } from './scenario6
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    Scenario7Module,
+    Scenario1Module
   ],
   providers: [],
   bootstrap: [AppComponent]
