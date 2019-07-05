@@ -13,4 +13,5 @@ import { Component1Component } from './component1/component1.component';
   ]
 /*  */
 })
+
 export class Scenario1Module { }

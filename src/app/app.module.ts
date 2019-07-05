@@ -9,6 +9,8 @@ import { Scenario5Module } from './scenario5/scenario5.module';
 import { Scenario6Module } from './scenario6/scenario6.module';
 import { Scenario7Module } from './scenario7/scenario7.module';
 
+import { SiblingMessageService } from './services/sibling-message.service';
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -30,7 +32,7 @@ import { AppComponent } from './app.component';
     Scenario6Module,
     Scenario7Module
   ],
-  providers: [],
+  providers: [SiblingMessageService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
